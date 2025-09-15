@@ -1,16 +1,16 @@
 import React from "react";
-import { Card, CardContent } from "@/Components/ui/card";
+import { ؤard, CardContent } from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/Components/ui/carousel";
+} from "@/components/ui/carousel";
 
 const Portfolio = () => {
   const works = [
-    { id: 1, img: "عريس10.jpg", title: "Wedding Moments" },
+    { id: 1, img: "عريس10.jpg", title: "Wedding Moments"  },
     { id: 2, img: "عريس2.jpg", title: "Bride & Groom" },
     { id: 3, img: "عريس3.jpg", title: "Romantic Shoot" },
     { id: 4, img: "عريس7.jpg", title: "Engagement Session" },
@@ -21,32 +21,32 @@ const Portfolio = () => {
   return (
     <div className="w-full max-w-6xl mx-auto p-6 relative">
       <h2 className="text-2xl font-bold mb-6 text-center">📸 معرض الأعمال</h2>
-
+      
       <div className="relative">
         <Carousel>
           <CarouselContent>
-            {works.map((work) => (
+        {works.map((work) => (
               <CarouselItem
-                key={work.id}
+            key={work.id}
                 className="md:basis-1/2 lg:basis-1/3"
-              >
+          >
                 <div className="p-2">
                   <Card>
                     <CardContent className="flex flex-col items-center justify-center p-2">
-                      <img
-                        src={work.img}
-                        alt={work.title}
-                        loading="lazy"
+            <img
+              src={work.img}
+              alt={work.title}
+              loading="lazy"
                         className="w-full h-64 object-cover rounded-lg"
-                      />
+            />
                       <h3 className="mt-2 text-lg font-semibold text-center">
-                        {work.title}
-                      </h3>
+                {work.title}
+              </h3>
                     </CardContent>
                   </Card>
-                </div>
+          </div>
               </CarouselItem>
-            ))}
+        ))}
           </CarouselContent>
 
           {/* أزرار التنقل */}
