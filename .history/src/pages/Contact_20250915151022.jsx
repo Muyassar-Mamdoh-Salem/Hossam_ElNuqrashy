@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaTiktok, FaPhoneAlt, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaTiktok, FaPhoneAlt } from "react-icons/fa";
 
 const ContactMe = () => {
   return (
@@ -10,7 +10,7 @@ const ContactMe = () => {
           يمكنك التواصل مع حسام من خلال وسائل التواصل الاجتماعي أو الهاتف
         </p>
 
-        <div className="grid sm:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-3 gap-6">
           {/* Facebook */}
           <a
             href="https://www.facebook.com/share/v/1FxbC1LkVt/"
@@ -33,17 +33,6 @@ const ContactMe = () => {
             <span className="font-medium text-gray-700">TikTok</span>
           </a>
 
-          {/* Instagram */}
-          <a
-            href="https://www.instagram.com/hossam.photograpy/"
-            target="_blank"
-            rel="noreferrer"
-            className="flex flex-col items-center bg-pink-50 p-6 rounded-xl hover:shadow-md hover:bg-pink-100 transition"
-          >
-            <FaInstagram className="text-pink-500 text-4xl mb-3" />
-            <span className="font-medium text-gray-700">Instagram</span>
-          </a>
-
           {/* Phone */}
           <a
             href="tel:+201141321315"
@@ -52,6 +41,7 @@ const ContactMe = () => {
             <FaPhoneAlt className="text-green-600 text-4xl mb-3" />
             <span className="font-medium text-gray-700">+20 123 456 7890</span>
           </a>
+          <a></a>
         </div>
       </div>
     </div>
