@@ -36,7 +36,7 @@ const Portfolio = () => {
             <img
               src={work.img}
               alt={work.title}
-              loading="lazy"
+             
                         className="w-full h-64 object-cover rounded-lg"
             />
                       <h3 className="mt-2 text-lg font-semibold text-center">
