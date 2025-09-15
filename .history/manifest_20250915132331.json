@@ -1,0 +1,21 @@
+{
+  "name": "حسام النقراشي | مصور فوتوغرافي وبلوجر",
+  "short_name": "Hossam ElNuqrashy",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "description": "الموقع الرسمي للمصور والبلوجر حسام النقراشي. استعرض أعماله الفنية في التصوير الفوتوغرافي ومقالاته.",
+  "icons": [
+    {
+      "src": "/logo.jpg",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.jpg",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
